@@ -1,0 +1,43 @@
+/* CSS Document */
+#wizard-menu {
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+#isDay, #isDay-s, #isDay-t, #isDay-st, #isMonth {
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+#icon-menu:hover {
+	-moz-transform: scale(1.15) rotate(3deg);
+	-webkit-transform: scale(1.15) rotate(3deg);
+	-o-transform: scale(1.15) rotate(3deg);
+	-ms-transform: scale(1.15) rotate(3deg);
+	transform: scale(1.15) rotate(3deg);
+}
+#icon-menu {
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+#isDay:hover, #isDay-s:hover, #isDay-st:hover, #isDay-t:hover {
+	font-weight:bolder;
+	-moz-transform: scale(1.4) rotate(5deg);
+	-webkit-transform: scale(1.4) rotate(5deg);
+	-o-transform: scale(1.4) rotate(5deg);
+	-ms-transform: scale(1.4) rotate(5deg);
+	transform: scale(1.4) rotate(5deg);
+}
+#isMonth:hover {
+	font-weight:bolder;
+	-moz-transform: scale(1.2) rotate(-3deg);
+	-webkit-transform: scale(1.2) rotate(-3deg);
+	-o-transform: scale(1.2) rotate(-3deg);
+	-ms-transform: scale(1.2) rotate(-3deg);
+	transform: scale(1.2) rotate(-3deg);
+}

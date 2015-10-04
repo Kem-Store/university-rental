@@ -1,0 +1,100 @@
+
+#calendar, #calendar tr td table {
+	font-size:11px;
+	cursor:default;
+}
+#calendar-frame {
+	height:165px;
+	display:inline-block;
+	border:#CCC solid 1px;
+	padding:5px;
+	margin:5px;
+}
+#unDay {
+	color:#CCC;	
+	cursor:default;
+}
+#isMonthName, #backMonth, #nextMonth, #isMonthName {
+	font-weight:bold;
+	cursor:default;
+}
+#nextMonth, #isMonthName {
+	text-align:center !important;
+}
+#backMonth:hover, #nextMonth:hover, #isMonthName:hover {
+	color:#0066cc;
+	cursor:pointer;
+}
+#isMonthName:disabled {
+	color:#999;
+	cursor:default;
+}
+#isMonthName {
+	height:20px;
+	width:125px;
+	background-color:#FFF;
+	font-size:12px;
+	border:#FFF 1px solid;
+}
+#isDay-s {
+	color:#C30;	
+	cursor:default;
+}
+#isDay-st {
+	font-weight:bolder;	
+	border:#C30 1px solid !important;
+	background-color:#d4e7f !important;
+	color:#C30;	
+	cursor:default;
+}
+
+#isDay-t {
+	font-weight:bolder;
+	border:#0066cc 1px solid !important;
+	background-color:#d4e7f !important;
+	color:#0066cc;
+	cursor:default;
+}
+#isMonth {
+	margin:0px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	background-color:#FFF;
+	border:#FFF 1px solid;
+	font-size:12px;
+	font-weight:bolder;
+	height:30px;
+	width:42px;
+	
+}
+#isDay, #isDay-s, #isDay-t, #isDay-st, #unDay, #backMonth, #nextMonth {
+	margin:0px;
+	padding:2px 3px 0 0;
+	background-color:#FFF;
+	font-size:11px;
+	border:#FFF 1px solid;
+	height:18px;
+	width:20px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-align:right;
+}
+
+#isDay:hover, #isDay-s:hover,#isMonth:hover {
+	border:#0066cc 1px solid;
+	background-color:#d4e7f;
+	color:#0066cc;
+	cursor:default;
+}
+
+#isDay-s:hover {
+	border:#CC3300 1px solid;
+	background-color:#d4e7f;
+	color:#CC3300;
+	cursor:default;
+}
+
+#month_today, #month_back, #month_next {
+	position:relative;
+	display:inline-block;
+}

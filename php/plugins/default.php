@@ -1,0 +1,1 @@
+<div id="exception"><?php echo _SITE_NONE_MODULE;?></div>

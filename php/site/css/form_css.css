@@ -1,0 +1,126 @@
+/* CSS Document */
+input[type=button].report {
+	width:80px;
+	height:25px;
+	border:#999 solid 1px;
+}
+
+input[type=submit], input[type=reset], input[type=button] {
+	width:164px;
+	height:56px;
+	border:none;
+	margin:5px 3px 5px 3px;
+}
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+	cursor:pointer;
+}
+
+input[type=submit]:disabled, input[type=reset]:disabled, input[type=button]:disabled {
+	cursor:default;
+}
+input[type=button].button {
+	width:86px;
+	height:86px;
+	border:none;
+	margin:5px 5px 10px 5px;
+}
+input[type=radio] {
+	margin:0 1px 0 5px;
+}
+#selected_object {
+	margin:-8px 0 0 -13px;
+	width:233px;
+	height:110px;
+	filter:alpha(opacity=0);
+	opacity:0.0;
+}
+#selected_emp {
+	position:absolute;
+	margin:-17px 0 0 -40px;
+	cursor:pointer;
+	width:780px;
+	height:35px;
+	filter:alpha(opacity=0);
+	opacity:0.0;
+}
+input[type=submit] { background:url(../../images/btnSave.png) 0px 0px no-repeat; }
+input[type=submit]:active { background:url(../../images/btnSave.png) 0px -56px no-repeat; }
+input[type=submit]:disabled { background:url(../../images/btnSave.png) 0px -112px no-repeat; }
+
+input[type=reset] { background:url(../../images/btnWizardBack.png) 0px 0px no-repeat; }
+input[type=reset]:active { background:url(../../images/btnWizardBack.png) 0px -56px no-repeat; }
+input[type=reset]:disabled { background:url(../../images/btnWizardBack.png) 0px -112px no-repeat; }
+
+input[type=submit]#register_save, input[type=submit]#submit_upload { background:url(../../images/btnApply.png) 0px 0px no-repeat; }
+input[type=submit]:active#register_save, input[type=submit]:active#submit_upload { background:url(../../images/btnApply.png) 0px -56px no-repeat; }
+input[type=submit]:disabled#register_save, input[type=submit]:disabled#submit_upload { background:url(../../images/btnApply.png) 0px -112px no-repeat; }
+
+input[type=button]#register_save { background:url(../../images/btnApply.png) 0px 0px no-repeat; }
+input[type=button]:active#register_save { background:url(../../images/btnApply.png) 0px -56px no-repeat; }
+input[type=button]:disabled#register_save { background:url(../../images/btnApply.png) 0px -112px no-repeat; }
+
+input[type=submit]#register_edit { background:url(../../images/btnSave.png) 0px 0px no-repeat; }
+input[type=submit]:active#register_edit { background:url(../../images/btnSave.png) 0px -56px no-repeat; }
+input[type=submit]:disabled#register_edit { background:url(../../images/btnSave.png) 0px -112px no-repeat; }
+
+input[type=button]#register_edit { background:url(../../images/btnEdit.png) 0px 0px no-repeat; }
+input[type=button]:active#register_edit { background:url(../../images/btnEdit.png) 0px -56px no-repeat; }
+input[type=button]:disabled#register_edit { background:url(../../images/btnEdit.png) 0px -112px no-repeat; }
+
+input[type=button]#register_success { background:url(../../images/btnSuccess.png) 0px 0px no-repeat; }
+input[type=button]:active#register_success { background:url(../../images/btnSuccess.png) 0px -56px no-repeat; }
+input[type=button]:disabled#register_success { background:url(../../images/btnSuccess.png) 0px -112px no-repeat; }
+
+input[type=button]#register_cancel { background:url(../../images/btnCancel.png) 0px 0px no-repeat; }
+input[type=button]:active#register_cancel { background:url(../../images/btnCancel.png) 0px -56px no-repeat; }
+input[type=button]:disabled#register_cancel { background:url(../../images/btnCancel.png) 0px -112px no-repeat; }
+
+input[type=button]#action_add { background:url(../../images/btnAdd.png) 0px 0px no-repeat; }
+input[type=button]:active#action_add { background:url(../../images/btnAdd.png) 0px -86px no-repeat; }
+input[type=button]:disabled#action_add { background:url(../../images/btnAdd.png) 0px -172px no-repeat; }
+
+input[type=button]#action_remove, input[type=button]#action_del { background:url(../../images/btnRemove.png) 0px 0px no-repeat; }
+input[type=button]:active#action_remove, input[type=button]:active#action_del { background:url(../../images/btnRemove.png) 0px -86px no-repeat; }
+input[type=button]:disabled#action_remove, input[type=button]:disabled#action_del { background:url(../../images/btnRemove.png) 0px -172px no-repeat; }
+
+input[type=button]#action_back { background:url(../../images/btnBack.png) 0px 0px no-repeat; }
+input[type=button]:active#action_back { background:url(../../images/btnBack.png) 0px -86px no-repeat; }
+input[type=button]:disabled#action_back { background:url(../../images/btnBack.png) 0px -172px no-repeat; }
+
+input[type=button]#action_regis { background:url(../../images/btnRegis.png) 0px 0px no-repeat; }
+input[type=button]:active#action_regis { background:url(../../images/btnRegis.png) 0px -86px no-repeat; }
+input[type=button]:disabled#action_regis { background:url(../../images/btnRegis.png) 0px -172px no-repeat; }
+
+input[type=button]#register_print { background:url(../../images/btnPrint.png) 0px 0px no-repeat; }
+input[type=button]:active#register_print { background:url(../../images/btnPrint.png) 0px -56px no-repeat; }
+input[type=button]:disabled#register_print { background:url(../../images/btnPrint.png) 0px -112px no-repeat; }
+
+input[type=button]#register_pay { background:url(../../images/btnPay.png) 0px 0px no-repeat; }
+input[type=button]:active#register_pay { background:url(../../images/btnPay.png) 0px -56px no-repeat; }
+input[type=button]:disabled#register_pay { background:url(../../images/btnPay.png) 0px -112px no-repeat; }
+
+.row_selected {
+	background-color:#999;	
+}
+textarea { resize: none; }
+#form_comment {
+	font-size:9px;
+	font-weight:500;
+	color:#ab3e3e;
+	display:none;
+}
+#regis_address {
+		
+}
+#regis_picture_name {
+	margin-bottom:5px;	
+}
+#regis_picture_tmp {
+	filter:alpha(opacity=0);
+	opacity:0.0;
+	width:240px;
+	height:280px;
+	position:absolute;
+	cursor:pointer;
+	margin-top:25px;
+}
